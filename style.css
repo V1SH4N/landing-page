@@ -1,0 +1,186 @@
+/* style.css */
+
+
+/* Hero Section */
+body{
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+.hero{
+    background-color: #1F2937;
+    padding: 30px 10%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+li{
+    margin: 10px;
+}
+
+.hero-container{
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-main{
+    margin: 0;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-secondary{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-left button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.hero-container img{
+    width: 500px;
+    height: 250px;
+}
+
+.hero-left{
+    max-width: 500px;
+}
+
+/* Random Information Section */
+
+.information-header{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.illustration-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+
+.illustration{
+    max-width: 150px;
+}
+
+.illustration img{
+    border-radius: 20px;
+    border: 5px solid #3882F6;
+}
+
+.illustration P{
+    text-align: center;
+    color: #1F2937;
+}
+
+/* Quote Section */
+
+.quote-section{
+    padding: 100px 25%;
+    background-color: #E5E7EB;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 100;
+}
+
+.author{
+    text-align: right;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+
+}
+
+
+/* Sign up Section */
+
+
+.signup-section{
+    display: flex;
+    margin: 100px 10%;
+    background-color: #3882F6;
+    justify-content: space-between;
+    padding: 2% 15%;
+    border-radius: 25px;
+}
+
+.signup-main{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #E5E7EB;
+}
+
+.signup-secondary{
+    font-size: 24px;
+    color: #E5E7EB;
+}
+
+.signup-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-right button{
+
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+
+/* Footer Section*/
+
+.footer{
+    text-align: center;
+    background-color: #1F2937;
+    padding: 20px 0;
+    color: #F9FAF8;
+}
+
+/* END of style.css */
